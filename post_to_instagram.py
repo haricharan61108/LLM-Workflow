@@ -1,8 +1,8 @@
 from instagrapi import Client
 
 # Login credentials
-USERNAME = "daily_news_postings"
-PASSWORD = "H@richaran61108"
+USERNAME = process.env.username
+PASSWORD = process.env.password
 
 # Path to image and caption
 IMAGE_PATH = "documents/india_news_image.png"  
