@@ -1,9 +1,4 @@
-# Dependency directories
+# Ignore environment files
+.env
 node_modules/
 venv/
-
-# Environment files
-.env
-
-# Mac system files
-.DS_Store
